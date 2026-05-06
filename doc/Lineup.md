@@ -31,7 +31,7 @@ Josh Johnson, Tomoki Sanders, Charles Lloyd, Marcus Miller | We Want Miles!, Nat
 The Milk, Celeste, Mari Froes, Olympia Vitalis
 
 ## Sunday, July 12
-Gala Dragot, Tamino, Ao
+Gala Dragot, Tamino, Ao, MARO
 
 ## Monday, July 13
 John Legend, Lady Linn & Her Magnificent Seven, Samara Joy, Selah Sue and the Gallands
