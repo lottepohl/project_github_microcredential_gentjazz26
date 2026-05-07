@@ -32,3 +32,15 @@ git merge origin/main       # merge when you're ready
 # pull: fetch + merge in one go
 git pull origin main
 ```
+
+## amend commit
+```
+git commit --amend -m "message"
+pit push --force # if commit already pushed
+```
+
+### revert commit with message
+```
+git revert --no-commit <commit hash>
+git commit -m "commit message"
+```
