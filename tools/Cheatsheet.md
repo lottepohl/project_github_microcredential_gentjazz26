@@ -16,3 +16,19 @@ git commit -m <informative message>
 ```
 git checkout -b <new_branch>
 ```
+
+### Git fetch versus git pull
+
+* `git fetch` downloads the changes from the remote but does not merge them into your working branch. It just updates your remote-tracking refs (e.g. origin/main). You stay on your current code untouched.
+
+* `git pull` does a fetch and immediately merges (or rebases) the changes into your current branch. It's essentially git fetch + git merge in one step.
+
+```
+# fetch: safe, just downloads
+git fetch origin
+git diff main origin/main   # inspect what changed before merging
+git merge origin/main       # merge when you're ready
+
+# pull: fetch + merge in one go
+git pull origin main
+```
