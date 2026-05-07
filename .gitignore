@@ -1,0 +1,3 @@
+# ignore files with sensitive information, such as tickets
+res/ticket_Lotte.png
+res/ticket_Matilde
