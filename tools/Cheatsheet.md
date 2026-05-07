@@ -17,6 +17,12 @@ git commit -m <informative message>
 git checkout -b <new_branch>
 ```
 
+### adding a branch to the remote when pushing it for the first time
+
+```
+git push --set-upstream origin <branch_name>
+```
+
 ### Git fetch versus git pull
 
 * `git fetch` downloads the changes from the remote but does not merge them into your working branch. It just updates your remote-tracking refs (e.g. origin/main). You stay on your current code untouched.
