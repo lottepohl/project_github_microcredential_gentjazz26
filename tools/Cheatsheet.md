@@ -49,4 +49,5 @@ pit push --force # if commit already pushed
 ```
 git revert --no-commit <commit hash>
 git commit -m "commit message"
+
 ```
